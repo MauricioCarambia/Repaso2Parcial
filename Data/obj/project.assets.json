@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\UAI\\LUG\\Plantilla\\Data\\Dal.csproj",
+      "projectUniqueName": "E:\\UAI\\LUG\\Itinerario 12 - repaso 2 parcial\\Repaso2Parcial\\Data\\Dal.csproj",
       "projectName": "Dal",
-      "projectPath": "E:\\UAI\\LUG\\Plantilla\\Data\\Dal.csproj",
+      "projectPath": "E:\\UAI\\LUG\\Itinerario 12 - repaso 2 parcial\\Repaso2Parcial\\Data\\Dal.csproj",
       "packagesPath": "C:\\Users\\mcara\\.nuget\\packages\\",
-      "outputPath": "E:\\UAI\\LUG\\Plantilla\\Data\\obj\\",
+      "outputPath": "E:\\UAI\\LUG\\Itinerario 12 - repaso 2 parcial\\Repaso2Parcial\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mcara\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\UAI\\LUG\\Plantilla\\Entity\\Entity.csproj": {
-              "projectPath": "E:\\UAI\\LUG\\Plantilla\\Entity\\Entity.csproj"
+            "E:\\UAI\\LUG\\Itinerario 12 - repaso 2 parcial\\Repaso2Parcial\\Entity\\Entity.csproj": {
+              "projectPath": "E:\\UAI\\LUG\\Itinerario 12 - repaso 2 parcial\\Repaso2Parcial\\Entity\\Entity.csproj"
             }
           }
         }
@@ -89,7 +89,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
