@@ -18,7 +18,7 @@ namespace Dal
             try
             {
                 List<Categoria> listaCategoria = new List<Categoria>();
-                SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["UAIStoreDB"].ConnectionString);
+                SqlConnection conn = new SqlConnection(Connection.ConnectionString());
                 using (conn)
                 {
                     conn.Open();
@@ -38,7 +38,39 @@ namespace Dal
                 }
                 return listaCategoria;
             }
-            catch (Exception)
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+        }
+
+        public Categoria CategoriaPorId(int id)
+        {
+            try
+            {
+                SqlConnection conn = new SqlConnection(Connection.ConnectionString());
+                using (conn)
+                {
+                    conn.Open();
+                    string query = "SELECT ID_CATEGORIA, DESCRIPCION FROM Categoria WHERE ID_CATEGORIA = @id";
+                    SqlCommand cmd = new SqlCommand(query, conn);
+                    using (cmd)
+                    {
+                        cmd.Parameters.AddWithValue("@id", id);
+                        SqlDataReader reader = cmd.ExecuteReader();
+                        using (reader)
+                        {
+                            while(reader.Read())
+                            {
+                                return CategoriaMapper.Map(reader);
+                            }
+                        }
+                    }
+                }
+                return null;
+            }
+            catch (Exception ex)
             {
 
                 throw;

@@ -104,7 +104,7 @@
             txtTitulo.Location = new Point(128, 25);
             txtTitulo.Name = "txtTitulo";
             txtTitulo.Size = new Size(170, 29);
-            txtTitulo.TabIndex = 11;
+            txtTitulo.TabIndex = 0;
             // 
             // cmbCategoria
             // 
@@ -320,6 +320,7 @@
             btnModificar.TabIndex = 12;
             btnModificar.Text = "Modificar";
             btnModificar.UseVisualStyleBackColor = true;
+            btnModificar.Click += btnModificar_Click;
             // 
             // groupBox3
             // 
@@ -361,25 +362,27 @@
             btnEliminar.TabIndex = 14;
             btnEliminar.Text = "Eliminar";
             btnEliminar.UseVisualStyleBackColor = true;
+            btnEliminar.Click += btnEliminar_Click;
             // 
             // dgvAplicaciones
             // 
             dgvAplicaciones.AllowUserToAddRows = false;
             dgvAplicaciones.AllowUserToDeleteRows = false;
+            dgvAplicaciones.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvAplicaciones.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvAplicaciones.Location = new Point(6, 22);
             dgvAplicaciones.Name = "dgvAplicaciones";
             dgvAplicaciones.ReadOnly = true;
-            dgvAplicaciones.Size = new Size(669, 375);
+            dgvAplicaciones.Size = new Size(730, 375);
             dgvAplicaciones.TabIndex = 4;
             // 
             // groupBox4
             // 
             groupBox4.Controls.Add(dgvAplicaciones);
             groupBox4.Font = new Font("Segoe UI", 12F);
-            groupBox4.Location = new Point(504, 12);
+            groupBox4.Location = new Point(489, 12);
             groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(681, 403);
+            groupBox4.Size = new Size(742, 403);
             groupBox4.TabIndex = 5;
             groupBox4.TabStop = false;
             groupBox4.Text = "Aplicaciones";
@@ -388,12 +391,13 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1217, 629);
+            ClientSize = new Size(1331, 629);
             Controls.Add(groupBox4);
             Controls.Add(groupBox3);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "UAIStore";
             Load += Form1_Load;
             groupBox1.ResumeLayout(false);

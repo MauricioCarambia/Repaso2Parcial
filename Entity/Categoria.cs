@@ -8,10 +8,7 @@ namespace Entity
 {
     public class Categoria
     {
-        private int idCategoria;
-        private string Descripcion;
-
-        public int IdCategoria { get => idCategoria; set => idCategoria = value; }
-        public string Descripcion1 { get => Descripcion; set => Descripcion = value; }
+        public int IdCategoria { get; set; }
+        public string Descripcion { get; set; }
     }
 }

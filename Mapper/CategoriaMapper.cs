@@ -14,7 +14,7 @@ namespace Mapper
         {
             Categoria categoria = new Categoria();
             categoria.IdCategoria = reader.GetInt32(0);
-            categoria.Descripcion1 = reader.GetString(1);
+            categoria.Descripcion = reader.GetString(1);
             return categoria;
         }
     }
