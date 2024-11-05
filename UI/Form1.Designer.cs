@@ -113,7 +113,7 @@
             cmbCategoria.FormattingEnabled = true;
             cmbCategoria.Location = new Point(128, 195);
             cmbCategoria.Name = "cmbCategoria";
-            cmbCategoria.Size = new Size(131, 29);
+            cmbCategoria.Size = new Size(189, 29);
             cmbCategoria.TabIndex = 4;
             // 
             // label10
@@ -215,7 +215,7 @@
             groupBox2.Controls.Add(label11);
             groupBox2.Controls.Add(btnModificar);
             groupBox2.Font = new Font("Segoe UI", 12F);
-            groupBox2.Location = new Point(12, 370);
+            groupBox2.Location = new Point(12, 364);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(471, 236);
             groupBox2.TabIndex = 2;
@@ -227,7 +227,7 @@
             txtNuevoPrecio.Font = new Font("Segoe UI", 12F);
             txtNuevoPrecio.Location = new Point(128, 201);
             txtNuevoPrecio.Name = "txtNuevoPrecio";
-            txtNuevoPrecio.Size = new Size(92, 29);
+            txtNuevoPrecio.Size = new Size(131, 29);
             txtNuevoPrecio.TabIndex = 23;
             // 
             // label5
@@ -245,7 +245,7 @@
             txtNuevoDesarrolladora.Font = new Font("Segoe UI", 12F);
             txtNuevoDesarrolladora.Location = new Point(128, 157);
             txtNuevoDesarrolladora.Name = "txtNuevoDesarrolladora";
-            txtNuevoDesarrolladora.Size = new Size(170, 29);
+            txtNuevoDesarrolladora.Size = new Size(131, 29);
             txtNuevoDesarrolladora.TabIndex = 17;
             // 
             // txtNuevoDescripcion
@@ -261,7 +261,7 @@
             txtNuevoTitulo.Font = new Font("Segoe UI", 12F);
             txtNuevoTitulo.Location = new Point(128, 65);
             txtNuevoTitulo.Name = "txtNuevoTitulo";
-            txtNuevoTitulo.Size = new Size(147, 29);
+            txtNuevoTitulo.Size = new Size(131, 29);
             txtNuevoTitulo.TabIndex = 14;
             // 
             // txtID
@@ -269,7 +269,7 @@
             txtID.Font = new Font("Segoe UI", 12F);
             txtID.Location = new Point(128, 25);
             txtID.Name = "txtID";
-            txtID.Size = new Size(92, 29);
+            txtID.Size = new Size(78, 29);
             txtID.TabIndex = 13;
             // 
             // label6
@@ -329,9 +329,9 @@
             groupBox3.Controls.Add(label9);
             groupBox3.Controls.Add(btnEliminar);
             groupBox3.Font = new Font("Segoe UI", 12F);
-            groupBox3.Location = new Point(489, 370);
+            groupBox3.Location = new Point(489, 364);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(321, 142);
+            groupBox3.Size = new Size(252, 133);
             groupBox3.TabIndex = 3;
             groupBox3.TabStop = false;
             groupBox3.Text = "Eliminar";
@@ -339,9 +339,9 @@
             // txtEliminarID
             // 
             txtEliminarID.Font = new Font("Segoe UI", 12F);
-            txtEliminarID.Location = new Point(128, 28);
+            txtEliminarID.Location = new Point(87, 28);
             txtEliminarID.Name = "txtEliminarID";
-            txtEliminarID.Size = new Size(170, 29);
+            txtEliminarID.Size = new Size(98, 29);
             txtEliminarID.TabIndex = 13;
             // 
             // label9
@@ -357,7 +357,7 @@
             // btnEliminar
             // 
             btnEliminar.Font = new Font("Segoe UI", 12F);
-            btnEliminar.Location = new Point(151, 65);
+            btnEliminar.Location = new Point(87, 63);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(147, 53);
             btnEliminar.TabIndex = 14;
@@ -394,7 +394,7 @@
             // btnSalir
             // 
             btnSalir.Font = new Font("Segoe UI", 12F);
-            btnSalir.Location = new Point(640, 547);
+            btnSalir.Location = new Point(576, 541);
             btnSalir.Name = "btnSalir";
             btnSalir.Size = new Size(147, 53);
             btnSalir.TabIndex = 13;
@@ -406,7 +406,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1331, 629);
+            ClientSize = new Size(1300, 611);
             Controls.Add(btnSalir);
             Controls.Add(groupBox4);
             Controls.Add(groupBox3);

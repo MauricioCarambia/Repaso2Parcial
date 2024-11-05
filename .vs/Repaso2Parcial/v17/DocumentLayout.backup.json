@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\UAI\\LUG\\Itinerario 12 - repaso 2 parcial\\Repaso2Parcial\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FCFC50D5-F75D-4643-89E2-50769C06D962}|UI\\UI.csproj|E:\\UAI\\LUG\\Itinerario 12 - repaso 2 parcial\\Repaso2Parcial\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FCFC50D5-F75D-4643-89E2-50769C06D962}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C94E1CA7-C10F-4DDD-9DC1-FE717C7C57F8}|Mapper\\Mapper.csproj|e:\\uai\\lug\\itinerario 12 - repaso 2 parcial\\repaso2parcial\\mapper\\aplicacionmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C94E1CA7-C10F-4DDD-9DC1-FE717C7C57F8}|Mapper\\Mapper.csproj|solutionrelative:mapper\\aplicacionmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FCFC50D5-F75D-4643-89E2-50769C06D962}|UI\\UI.csproj|e:\\uai\\lug\\itinerario 12 - repaso 2 parcial\\repaso2parcial\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCFC50D5-F75D-4643-89E2-50769C06D962}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCFC50D5-F75D-4643-89E2-50769C06D962}|UI\\UI.csproj|E:\\UAI\\LUG\\Itinerario 12 - repaso 2 parcial\\Repaso2Parcial\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FCFC50D5-F75D-4643-89E2-50769C06D962}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB66445B-A143-4898-8279-9F1FA0B56BC4}|Data\\Dal.csproj|e:\\uai\\lug\\itinerario 12 - repaso 2 parcial\\repaso2parcial\\data\\categoriadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AplicacionMapper.cs",
               "DocumentMoniker": "E:\\UAI\\LUG\\Itinerario 12 - repaso 2 parcial\\Repaso2Parcial\\Mapper\\AplicacionMapper.cs",
               "RelativeDocumentMoniker": "Mapper\\AplicacionMapper.cs",
@@ -135,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AplicacionData.cs",
               "DocumentMoniker": "E:\\UAI\\LUG\\Itinerario 12 - repaso 2 parcial\\Repaso2Parcial\\Data\\AplicacionData.cs",
               "RelativeDocumentMoniker": "Data\\AplicacionData.cs",
@@ -148,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "E:\\UAI\\LUG\\Itinerario 12 - repaso 2 parcial\\Repaso2Parcial\\UI\\Form1.cs",
               "RelativeDocumentMoniker": "UI\\Form1.cs",
@@ -161,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "E:\\UAI\\LUG\\Itinerario 12 - repaso 2 parcial\\Repaso2Parcial\\UI\\Form1.cs",
               "RelativeDocumentMoniker": "UI\\Form1.cs",
