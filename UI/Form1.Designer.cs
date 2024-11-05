@@ -59,6 +59,7 @@
             btnEliminar = new Button();
             dgvAplicaciones = new DataGridView();
             groupBox4 = new GroupBox();
+            btnSalir = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -69,7 +70,7 @@
             // btnBorrador
             // 
             btnBorrador.Font = new Font("Segoe UI", 12F);
-            btnBorrador.Location = new Point(318, 112);
+            btnBorrador.Location = new Point(11, 241);
             btnBorrador.Name = "btnBorrador";
             btnBorrador.Size = new Size(147, 53);
             btnBorrador.TabIndex = 5;
@@ -94,7 +95,7 @@
             groupBox1.Font = new Font("Segoe UI", 12F);
             groupBox1.Location = new Point(12, 12);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(471, 244);
+            groupBox1.Size = new Size(323, 344);
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
             groupBox1.Text = "Agregar";
@@ -103,7 +104,7 @@
             // 
             txtTitulo.Location = new Point(128, 25);
             txtTitulo.Name = "txtTitulo";
-            txtTitulo.Size = new Size(170, 29);
+            txtTitulo.Size = new Size(131, 29);
             txtTitulo.TabIndex = 0;
             // 
             // cmbCategoria
@@ -112,7 +113,7 @@
             cmbCategoria.FormattingEnabled = true;
             cmbCategoria.Location = new Point(128, 195);
             cmbCategoria.Name = "cmbCategoria";
-            cmbCategoria.Size = new Size(170, 29);
+            cmbCategoria.Size = new Size(131, 29);
             cmbCategoria.TabIndex = 4;
             // 
             // label10
@@ -130,7 +131,7 @@
             txtPrecio.Font = new Font("Segoe UI", 12F);
             txtPrecio.Location = new Point(128, 154);
             txtPrecio.Name = "txtPrecio";
-            txtPrecio.Size = new Size(170, 29);
+            txtPrecio.Size = new Size(131, 29);
             txtPrecio.TabIndex = 3;
             // 
             // txtDesarrolladora
@@ -138,7 +139,7 @@
             txtDesarrolladora.Font = new Font("Segoe UI", 12F);
             txtDesarrolladora.Location = new Point(128, 106);
             txtDesarrolladora.Name = "txtDesarrolladora";
-            txtDesarrolladora.Size = new Size(170, 29);
+            txtDesarrolladora.Size = new Size(131, 29);
             txtDesarrolladora.TabIndex = 2;
             // 
             // txtDescripcion
@@ -146,7 +147,7 @@
             txtDescripcion.Font = new Font("Segoe UI", 12F);
             txtDescripcion.Location = new Point(128, 62);
             txtDescripcion.Name = "txtDescripcion";
-            txtDescripcion.Size = new Size(170, 29);
+            txtDescripcion.Size = new Size(189, 29);
             txtDescripcion.TabIndex = 1;
             // 
             // label4
@@ -192,7 +193,7 @@
             // btnGuardar
             // 
             btnGuardar.Font = new Font("Segoe UI", 12F);
-            btnGuardar.Location = new Point(318, 174);
+            btnGuardar.Location = new Point(170, 241);
             btnGuardar.Name = "btnGuardar";
             btnGuardar.Size = new Size(147, 53);
             btnGuardar.TabIndex = 6;
@@ -214,9 +215,9 @@
             groupBox2.Controls.Add(label11);
             groupBox2.Controls.Add(btnModificar);
             groupBox2.Font = new Font("Segoe UI", 12F);
-            groupBox2.Location = new Point(12, 262);
+            groupBox2.Location = new Point(12, 370);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(471, 255);
+            groupBox2.Size = new Size(471, 236);
             groupBox2.TabIndex = 2;
             groupBox2.TabStop = false;
             groupBox2.Text = "Modificar";
@@ -226,7 +227,7 @@
             txtNuevoPrecio.Font = new Font("Segoe UI", 12F);
             txtNuevoPrecio.Location = new Point(128, 201);
             txtNuevoPrecio.Name = "txtNuevoPrecio";
-            txtNuevoPrecio.Size = new Size(170, 29);
+            txtNuevoPrecio.Size = new Size(92, 29);
             txtNuevoPrecio.TabIndex = 23;
             // 
             // label5
@@ -252,7 +253,7 @@
             txtNuevoDescripcion.Font = new Font("Segoe UI", 12F);
             txtNuevoDescripcion.Location = new Point(128, 109);
             txtNuevoDescripcion.Name = "txtNuevoDescripcion";
-            txtNuevoDescripcion.Size = new Size(170, 29);
+            txtNuevoDescripcion.Size = new Size(337, 29);
             txtNuevoDescripcion.TabIndex = 15;
             // 
             // txtNuevoTitulo
@@ -260,7 +261,7 @@
             txtNuevoTitulo.Font = new Font("Segoe UI", 12F);
             txtNuevoTitulo.Location = new Point(128, 65);
             txtNuevoTitulo.Name = "txtNuevoTitulo";
-            txtNuevoTitulo.Size = new Size(170, 29);
+            txtNuevoTitulo.Size = new Size(147, 29);
             txtNuevoTitulo.TabIndex = 14;
             // 
             // txtID
@@ -268,7 +269,7 @@
             txtID.Font = new Font("Segoe UI", 12F);
             txtID.Location = new Point(128, 25);
             txtID.Name = "txtID";
-            txtID.Size = new Size(170, 29);
+            txtID.Size = new Size(92, 29);
             txtID.TabIndex = 13;
             // 
             // label6
@@ -314,7 +315,7 @@
             // btnModificar
             // 
             btnModificar.Font = new Font("Segoe UI", 12F);
-            btnModificar.Location = new Point(318, 188);
+            btnModificar.Location = new Point(318, 177);
             btnModificar.Name = "btnModificar";
             btnModificar.Size = new Size(147, 53);
             btnModificar.TabIndex = 12;
@@ -328,9 +329,9 @@
             groupBox3.Controls.Add(label9);
             groupBox3.Controls.Add(btnEliminar);
             groupBox3.Font = new Font("Segoe UI", 12F);
-            groupBox3.Location = new Point(12, 523);
+            groupBox3.Location = new Point(489, 370);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(471, 83);
+            groupBox3.Size = new Size(321, 142);
             groupBox3.TabIndex = 3;
             groupBox3.TabStop = false;
             groupBox3.Text = "Eliminar";
@@ -356,7 +357,7 @@
             // btnEliminar
             // 
             btnEliminar.Font = new Font("Segoe UI", 12F);
-            btnEliminar.Location = new Point(318, 28);
+            btnEliminar.Location = new Point(151, 65);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(147, 53);
             btnEliminar.TabIndex = 14;
@@ -368,30 +369,45 @@
             // 
             dgvAplicaciones.AllowUserToAddRows = false;
             dgvAplicaciones.AllowUserToDeleteRows = false;
-            dgvAplicaciones.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvAplicaciones.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
             dgvAplicaciones.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvAplicaciones.Location = new Point(6, 22);
+            dgvAplicaciones.MultiSelect = false;
             dgvAplicaciones.Name = "dgvAplicaciones";
             dgvAplicaciones.ReadOnly = true;
-            dgvAplicaciones.Size = new Size(730, 375);
+            dgvAplicaciones.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgvAplicaciones.Size = new Size(921, 316);
             dgvAplicaciones.TabIndex = 4;
+            dgvAplicaciones.SelectionChanged += dgvAplicaciones_SelectionChanged;
             // 
             // groupBox4
             // 
             groupBox4.Controls.Add(dgvAplicaciones);
             groupBox4.Font = new Font("Segoe UI", 12F);
-            groupBox4.Location = new Point(489, 12);
+            groupBox4.Location = new Point(354, 12);
             groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(742, 403);
+            groupBox4.Size = new Size(933, 344);
             groupBox4.TabIndex = 5;
             groupBox4.TabStop = false;
             groupBox4.Text = "Aplicaciones";
+            // 
+            // btnSalir
+            // 
+            btnSalir.Font = new Font("Segoe UI", 12F);
+            btnSalir.Location = new Point(640, 547);
+            btnSalir.Name = "btnSalir";
+            btnSalir.Size = new Size(147, 53);
+            btnSalir.TabIndex = 13;
+            btnSalir.Text = "Salir";
+            btnSalir.UseVisualStyleBackColor = true;
+            btnSalir.Click += btnSalir_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1331, 629);
+            Controls.Add(btnSalir);
             Controls.Add(groupBox4);
             Controls.Add(groupBox3);
             Controls.Add(groupBox2);
@@ -445,5 +461,6 @@
         private Label label8;
         private Label label11;
         private TextBox txtTitulo;
+        private Button btnSalir;
     }
 }

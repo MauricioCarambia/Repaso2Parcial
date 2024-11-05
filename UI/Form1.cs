@@ -29,6 +29,7 @@ namespace UI
         {
             dgvAplicaciones.DataSource = null;
             dgvAplicaciones.DataSource = aplicacionBusiness.ObtenerTodasAplicaciones();
+            dgvAplicaciones.Columns["Categoria"].Visible = false;
         }
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -63,6 +64,7 @@ namespace UI
                 listaAplicacion = new List<Aplicacion>();
                 MostrarAplicaciones();
                 MessageBox.Show("Aplicacion agregada");
+                LimpiarCampos();
             }
             catch (Exception ex)
             {
@@ -95,7 +97,7 @@ namespace UI
         {
             try
             {
-                int id =Convert.ToInt32(txtEliminarID.Text);
+                int id = Convert.ToInt32(txtEliminarID.Text);
                 aplicacionBusiness.EliminarAplicacion(id);
                 MostrarAplicaciones();
                 MessageBox.Show("Aplicacion eliminada");
@@ -105,6 +107,43 @@ namespace UI
 
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void dgvAplicaciones_SelectionChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                if (dgvAplicaciones.SelectedRows.Count > 0)
+                {
+                    Aplicacion seleccionado = (Aplicacion)dgvAplicaciones.SelectedRows[0].DataBoundItem;
+                    if (seleccionado != null)
+                    {
+                        txtID.Text = seleccionado.IdApp.ToString();
+                        txtNuevoTitulo.Text = seleccionado.Titulo;
+                        txtNuevoDescripcion.Text = seleccionado.Descripcion;
+                        txtNuevoDesarrolladora.Text = seleccionado.Desarrolladora;
+                        txtNuevoPrecio.Text = seleccionado.Precio.ToString();
+                        txtEliminarID.Text = seleccionado.IdApp.ToString();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+        }
+        private void LimpiarCampos()
+        {
+            txtTitulo.Text = string.Empty;
+            txtDescripcion.Text = string.Empty;
+            txtDesarrolladora.Text = string.Empty;
+            txtPrecio.Text = string.Empty;
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

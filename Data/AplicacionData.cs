@@ -131,7 +131,7 @@ namespace Dal
 						cmd.Parameters.AddWithValue("@descripcion", aplicacion.Descripcion);
 						cmd.Parameters.AddWithValue("@desarrolladora", aplicacion.Desarrolladora);
 						cmd.Parameters.AddWithValue("@precio", aplicacion.Precio);
-						cmd.Parameters.AddWithValue("@id", aplicacion.IdAplicacion);
+						cmd.Parameters.AddWithValue("@id", aplicacion.IdApp);
 						cmd.ExecuteNonQuery();
 					}
 				}

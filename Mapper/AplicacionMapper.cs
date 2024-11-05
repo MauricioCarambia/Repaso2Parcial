@@ -9,7 +9,7 @@ namespace Mapper
         {
             Aplicacion aplicacion = new Aplicacion
             {
-                IdAplicacion = Convert.ToInt32(reader["ID"].ToString()),
+                IdApp = Convert.ToInt32(reader["ID"].ToString()),
                 Titulo = reader["TITULO"].ToString(),
                 Descripcion = reader["DESCRIPCION"].ToString(),
                 Desarrolladora = reader["DESARROLLADORA"].ToString(),
