@@ -89,7 +89,7 @@ namespace Dal
 					SqlCommand cmd = new SqlCommand(query, conn);
 					using (cmd)
 					{
-						cmd.Parameters.AddWithValue("@ID", id);
+						cmd.Parameters.AddWithValue("@id", id);
 						SqlDataReader reader = cmd.ExecuteReader();
 						using (reader)
 						{

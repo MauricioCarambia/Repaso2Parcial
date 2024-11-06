@@ -117,8 +117,14 @@ namespace BLL
         {
             try
             {
+                Aplicacion aplicacion = aplicacionData.ObtenerAppPorId(id);
                 using (TransactionScope trx = new TransactionScope())
                 {
+                    
+                    if (aplicacion == null)
+                    {
+                        throw new Exception("Aplicacion no existe");
+                    }
                     aplicacionData.EliminarAplicacion(id);
                     trx.Complete();
                 }
