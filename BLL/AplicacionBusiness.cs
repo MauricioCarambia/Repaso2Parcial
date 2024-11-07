@@ -117,10 +117,10 @@ namespace BLL
         {
             try
             {
-                
+                Aplicacion aplicacion = aplicacionData.ObtenerAppPorId(id);
                 using (TransactionScope trx = new TransactionScope())
                 {
-                    Aplicacion aplicacion = aplicacionData.ObtenerAppPorId(id);
+                    
                     if (aplicacion == null)
                     {
                         throw new Exception("Aplicacion no existe");
